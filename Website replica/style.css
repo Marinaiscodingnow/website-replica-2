@@ -1,0 +1,163 @@
+#header {
+	margin: 0 auto;
+	padding: 44px 0 35px;
+	text-align: center;
+	width: auto;
+	background-color: #f0b4e6;
+}
+#header a.logo {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+#header a.logo img {
+	border: 0;
+	display: block;
+	margin: auto;
+	padding: 0;
+	
+}
+#header ul {
+	margin: 0;
+	padding: 30px 0 0;
+}
+#header ul li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0 19px;
+}
+#header ul li a {
+	color: #8255d4;
+	font-size: 20px;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+}
+#header ul li a:hover, #header ul li.selected a {
+	color: #7a53d4;
+	text-decoration: underline;
+}
+
+.background {
+background-color: #f8cceb;
+}
+
+.short{
+	height:600px;
+}
+
+div.gallery {
+	border: 1px solid #ccc;
+	width: 180px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+
+  button{
+	text-align: center;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-color: #7e60c5;
+	border-radius: 10px;
+	background-color: #f8cceb;
+	color: #7e60c5;
+	border-style: solid ;
+  }
+
+  div.button:hover {
+	border-color: aqua;
+}
+
+h6{
+	background-color: rgb(243, 220, 241);
+	color:#8255d4;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 5%;
+	height: 300px;
+	width: 400px;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 25%;
+	margin-top: 7%;
+	float: left;
+}
+
+.photo {
+	background-color: rgb(243, 220, 241);
+	color:#8255d4;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 5%;
+	height: 300px;
+	width: 400px;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 7%;
+	
+}
+
+.text{
+	text-align: center;
+	color: #9172da;
+	
+}
+
+.nav-link{
+color: #6a3bd8;
+}
+
+.card-text{
+	color: #6a3bd8;
+}
+
+.card-title{
+color: #6a3bd8;
+}
+
+
+.cards {
+	overflow: hidden;
+	border-radius: 15%; 
+	max-width: fit-content;
+	max-height: 100%;
+}
+  
+.cards img {
+	width: 100%;
+	transition: 0.4s all ease-in-out;
+}
+  
+.cards:hover img {
+	transform: scale(1.2);
+}
+
+
+.overlay {
+	position: absolute;
+	
+	opacity: 0;
+	transition: .5s ease;
+	height: 100%;
+  }
+  
+  .card:hover .overlay {
+	opacity: 1;
+  }
